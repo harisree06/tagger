@@ -1,0 +1,21 @@
+{
+  "name": "tagger",
+  "version": "1.0.1",
+  "description": "Learn git tagging",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "npm version patch -m \"version %s\"",
+    "major": "npm version major -m \"version %s\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harisree06/tagger.git"
+  },
+  "author": "elvis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harisree06/tagger/issues"
+  },
+  "homepage": "https://github.com/harisree06/tagger#readme"
+}
