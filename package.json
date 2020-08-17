@@ -7,7 +7,8 @@
     "hi": "hhh",
     "test": "echo \"Error: no test specified\" && exit 1",
     "patch": "npm version patch -m \"version %s\"",
-    "major": "npm version major -m \"version %s\""
+    "major": "npm version major -m \"version %s\"",
+    "push-patch": "npm version patch -m \"version %s\" && git push --tag"
   },
   "repository": {
     "type": "git",
